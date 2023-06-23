@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+  #wrapper {
+    z-index: 1;
+    height: 85vh;
+    width: 96vw;
+  }
+
+  #map {
+    display: inline-block;
+    height: 100%;
+    width: 49%;
+  }
+
+  #chart {
+    display: inline-block;
+
+    height: 100%;
+    width: 49%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #map {
+    height: 97vh;
+    width: 97vw;
+  }
+
+  #chart {
+    height: 97vh;
+    width: 97vw;
+  }
+}

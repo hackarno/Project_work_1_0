@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <title>Week 5</title>
+    <script src="src/index.js" defer></script>
+    <link rel="stylesheet" href="leaflet/leaflet.css" />
+    <script src="leaflet/leaflet.js" defer></script>
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <div id="map"></div>
+      <div id="chart"></div>
+    </div>
+    <br />
+    <button id="exportButton" class="exportButton">
+      Click to download the chart currently displayed
+    </button>
+    <h3>About the site:</h3>
+    <p>
+      On the site users are able to display the amount of workforce and the
+      amount of new summer houses in years 1980-2019 by municipality. Workforces
+      status is displayed as it was at the end of decade.
+    </p>
+    <p>
+      Purpose of the data is to present how the workforce is moving to larger
+      cities and smaller municipalities are becoming "summer house villages".
+      However this is not always the case and there are interesting developments
+      across the country.
+    </p>
+
+    <p>
+      On the map the development between decades 2000-2009 and 2010-2019 is
+      displayed with colors. Summer house layer uses fill colors. The red color
+      means that less than 50% of summer houses were built than the decade
+      before. Green color means that more summer houses were built than a decade
+      before. Yellow color marks the status between aforementioned colors.
+    </p>
+    <p>
+      For the workforce, similar colors are used but the outline of the
+      municipality is colored. Red color is used when the workforce has dropped
+      below 80% of the level of the last decade. Green and yellow are used
+      similarly as in the summer house layer.
+    </p>
+    <p>
+      Users are able to display either workforce or summerhouses individually or
+      both simultaneously by selecting layers from the upper right corner of the
+      map. By default both layers are presented on top of each other.
+    </p>
+    <p>
+      Users are able to download the chart currently displayed by clicking the
+      button below the data presentation area.
+    </p>
+  </body>
+</html>
